@@ -7,18 +7,13 @@ var e="fail";
 var f="out of range";
 
 
-// var f= 38 && 0;
-// const inp=document.getElementById("score").value;
 
 function alertMe(){
-    if (score.value = null) {
-        hid.innerHTML="Type a Number";
-    }
-    
-   else  if(score.value  <= 0){
+    if (score.value <= 0) {
         hid.innerHTML=f;
     }
-
+    
+   
      else if(score.value >=0 && score.value <=39 ){
         hid.innerHTML=e;
     } 
@@ -39,9 +34,7 @@ function alertMe(){
         
     } 
 
-    else {
-        hid.innerHTML=f;
-    }
+  
 
 }
 
