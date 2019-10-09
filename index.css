@@ -1,0 +1,69 @@
+body{
+margin: 0;
+background-color: aquamarine;
+}
+
+.header {
+    color: brown;
+    background-color: white;
+    
+}
+
+.sqi {
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: -40px;
+    padding: 30px;
+}
+
+.header img {
+    width: 80px;
+    height: 60px;
+    margin-left: 40px;
+    margin: top;
+}
+.main {
+    width: 30%;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 60px;
+    background-color: blanchedalmond;
+}
+.sub-main {
+    margin-top: 30px;
+    background-color: azure;
+    border: 2px solid blue;
+}
+
+#result {
+    background-color: green;
+    color:whitesmoke;
+    border:2px solid skyblue;
+    padding:5px;
+    border-radius: 5px;
+
+}
+
+#result:hover {
+    background-color: pink;
+}
+
+#hid {
+    background-color: greenyellow;
+    color: rgb(230, 40, 65);
+    height: 40px;
+    font-size: 20px;
+}
+
+.main input {
+    color: blue;
+    font-size: 15px;
+    border: 2px solid blue;
+    
+    height: 40px;
+
+}
+
+ placeholder {
+    color: aliceblue;
+}
